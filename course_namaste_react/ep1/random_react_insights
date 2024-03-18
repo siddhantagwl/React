@@ -1,0 +1,7 @@
+react was built with philosophy to manipualte DOMs efficiently
+Manipulating DOMs is the most expensive operation by browsers. react trie to solve that using javascript
+React can be written without JSX also.
+if you change the order of script in html file - for ex: write App.js before importing react cdn, it will throw an error
+ORDER of the files are important
+React is called both library and a framework. Its library coz it can be applioed to a small section of html page as well
+that's a good thing abt react that you dont need to build whole App with react.
