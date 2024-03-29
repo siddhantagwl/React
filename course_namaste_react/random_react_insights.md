@@ -39,3 +39,11 @@
     - different dev and prod bundles
 
 12. browserslist package -> very powerful tool to configure on which brwosers our app can work, you can also provide which versions of browsers and even country specific browsers
+
+13. babel - anopther powerful package for transpiling jsx to react object, also manages backward compatibility of browsers
+
+14. Attributes in JSX asre camelCase ex: className, tabIndex
+15. if want to write jsx in multiple lines, wrap code in ()
+16. YOu can crate react compositon in jsx, element into a element, element into a component and viceversa, component into a component
+17. JSX also prevents cross-site scripting attaack. coz antyhing inside {} will be executed. JSX will "escape" it, it will sanitize it. its very powerful
+18. JSX makes react code more readable and faster
