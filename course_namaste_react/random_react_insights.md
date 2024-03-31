@@ -47,3 +47,9 @@
 16. YOu can crate react compositon in jsx, element into a element, element into a component and viceversa, component into a component
 17. JSX also prevents cross-site scripting attaack. coz antyhing inside {} will be executed. JSX will "escape" it, it will sanitize it. its very powerful
 18. JSX makes react code more readable and faster
+19. Congif driven UI -> websites driven by data/configs. Ex: if you have food order apps, there will be different offers in differrnt cities, and you cannot develop different UI application for different city, so we use configs/data to control UI. and these configs come from backend APIs
+20. USE CDN to uplaod all your imges - Swiggy uses cloudinary as CDN provider to host images
+21. BEST practice - destructure objects in props to avoid complexity
+22. ? is called optional chaining while destructuring the json
+23. loop using map function instead of for loop and key is imp to identify each card as unique, coz react optimizes the dom using these id and its imp to provide this key. KEY SHOULD BE UNIQUE
+24. REACT says dont use index generated from map function as keys
