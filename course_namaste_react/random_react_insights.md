@@ -53,3 +53,19 @@
 22. ? is called optional chaining while destructuring the json
 23. loop using map function instead of for loop and key is imp to identify each card as unique, coz react optimizes the dom using these id and its imp to provide this key. KEY SHOULD BE UNIQUE
 24. REACT says dont use index generated from map function as keys
+25. put all the source code in src folder - industry standard
+26. Put all the components separately in src/components folder
+27. Put all the hard coded strings/json/objects separately in utils or common folder
+28. use export keyword before const when exporting multiple objects from a file.
+29. when importing the named export, use {} during importing ex: import {URL} from "../src/constants"
+30. REACT is efficient and fast on DOM manipulation - UI and data layers to be in sync, this is what frameworks are trying to solve this
+31. react hooks are also normal JS utility functions
+32. useState() and useEffect() are the most imp hooks
+33. whenever a state variable updates, react re-renders the component
+34. Reconciliation Algo (React Fibre):
+
+- uses Virtual dom - representation of actual dom. VDOM is the react element (eX: print a component like Body, it will be an object)
+- Diff algo: finds difference b/w updated Vdom and prev-vdom. it will then calc the diff and update the vdom with the difference
+- finding diff in js object is v.fast when compared to finding diff in html tags, thats the reason react is fast
+
+35.
